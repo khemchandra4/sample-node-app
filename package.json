@@ -1,0 +1,14 @@
+{
+  "name": "sample-node-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A minimal Node app for testing GitHub repo URL and build settings.",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "start": "node dist/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
